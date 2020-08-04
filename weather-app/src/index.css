@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+color: white
+}
+.card-title {
+  color:#5656a9;
+}
+.statusImg {
+  width: 40px;
+  height: 40px;
+  margin-left: 135px;
+}
+
+.homeBackg{
+
+ background-image: url('./assets/background.jpeg');
+ background-size: cover;
+ background-position: bottom;
+ 
+ height: 900px;
+}
+.city{
+  background-image: url('./assets/sunny_wallpaper.jpg');
+  background-size: contain;
+  background-position: bottom;
+}
+main{
+  min-height: 100vh;
+  padding: 25px;
+
+}
+.search-box{
+  width: 100%;
+  margin:0 544px 75px;
+}
+.form-control{
+  width: 145px;
+  display: flex; justify-content: center; 
+}
+
+
+/* .cityDetails{
+  background-image: url('./assets/sunny_wallpaper.jpg');
+  background-size: cover;
+  background-position: bottom;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 900px;
+  border-radius: 50%;
+  
+}
+.city{
+  width: 50px;
+  height: 50px;
+  font-size: 12px;
+  background-color: aquamarine;
+  direction: none;
+  
+} */
+.button{
+  width: 106px;
+  margin-top: 7px;
+  margin-left: 24px;
+  float: left;
+  justify-content: center;
+  display:block;
+  
+}
+a{
+  font-size: x-large
+}
+
+/* .city{
+  width: 39vw;
+} */
+
+.cityDetails{
+  background-image: url('./assets/sunny_wallpaper.jpg');
+    margin: 0 auto;
+    display: inline-block;
+    flex-direction: column;
+    padding-top: 30px;
+
+    background-size: cover;
+  background-position: bottom;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 900px;
+  border-radius: 50%;
+}
+.city li{
+  text-decoration: none;
+    position: relative;
+    display: inherit;
+    margin-left: 200px;
+    margin-top: 20px;
+    max-width: 220px;
+    background-size: 30px;
+    /* width: 100%; */
+    /* color: #bbb; */
+    background-color: #26c584;
+    font-size: 16px;
+    box-shadow: none !important;
+    list-style: none;
+    border-radius: 10px;
+    height: 63px;;
+    
+}
+.Logo {
+  background-image: url('./assets/cloud-element-weather-sunrise-sun-up-rise-512.png');
+}
+
